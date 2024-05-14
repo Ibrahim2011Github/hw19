@@ -1,0 +1,231 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.float{
+    float:left ;
+}
+
+.disFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all{
+    width: 60%;
+    min-height: 700px;
+    /* background-color: aqua; */
+    margin-left: 20%;
+}
+
+.img{
+    width: 100%;
+    height: 320px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5REcTj4yBtcCVWVz2y8--rdfRmNz5g_eKyDbeQ9Q9ew&s);
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    width: 100%;
+    min-height: 80px;
+}
+
+.top{
+    width: 100%;
+    min-height: 30px;
+    display: flex;
+    z-index: 1;
+    position: relative;
+    /* background-color: azure; */
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    position: absolute;
+    left: 50px;
+}
+
+.icon::after{
+    content: ' +994 070 249 18 28 ';
+}
+
+.ic{
+    position: absolute;
+    left: 220px;
+}
+
+.ic::after{
+    content: ' ibragimajdynly@gmail.com ';
+}
+
+.icons{
+    min-width: 5px;
+    min-height: 4px;
+    position: absolute;
+    right: 50px;
+}
+
+
+.bottom{
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.border{
+    width: 70px;
+    min-height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    left: 50px;
+}
+
+.cent{
+    width: 60%;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 150px;
+    text-transform: uppercase;
+}
+
+.search{
+    position: absolute;
+    right: 150px;
+}
+
+.right{
+    position: absolute;
+    right: 100px;
+}
+
+.center{
+    width: 100%;
+    min-height: 230px;
+    /* background-color: grey; */
+    position: relative;
+}
+
+.info{
+    width: 40%;
+    min-height: 120px;
+    /* background-color: blueviolet; */
+    position: absolute;
+    
+    left: 40px;
+    top: 30px;
+    color: black;
+}
+
+.info h1{
+    margin: 0;
+}
+
+.bord{
+    width: 120px;
+    min-height: 40px;
+    background-color: #00C366;
+    position: absolute;
+    left: 40px;
+    top: 120px;
+    text-transform: capitalize;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.information{
+    width: 100%;
+    min-height: 150px;
+    /* background-color: lightgrey; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div{
+    width: 25%;
+    min-height: 90px;
+}
+
+.lef{
+    width: 20%;
+    min-height: 203.2px;
+    /* background-color: aqua; */
+}
+
+.user{
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+.riht{
+    width: 80%;
+    min-height: 120px;
+    /* background-color: aqua; */
+    margin: 30px 0;
+
+}
+
+.riht h1{
+    margin: 0;
+}
+
+.footer{
+    width: 100%;
+    min-height: 200px;
+    background-color: azure;
+}
+
+.demo{
+    width: 50%;
+    min-height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.All{
+    width: 60px;
+    min-height: 25px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bot{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    }
+
+.foto{
+    width: 49%;
+    min-height: 150px;
+    background-image: url('https://rsv.ru/blog/wp-content/uploads/2021/09/programmist-918x516.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
